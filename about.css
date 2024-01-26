@@ -1,0 +1,209 @@
+
+header{
+    display: flex;
+    width: 1695px;
+    
+}
+
+.right{
+    background: rgb(72, 71, 77);
+    background: linear-gradient(90deg, rgb(45, 45, 46) 0%, rgb(63, 63, 66) 59%, rgb(77, 77, 78) 100%);    width: 50%;
+    height: 700px;
+    border: 1px black solid;
+    color: white;
+    align-items: center;
+    width: 55%;
+}
+
+.left{
+    background-image: url('./images/zigzag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.imag1{
+    border-radius: 140px;
+}
+
+.nav{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nav-item{
+    font-size: 20px;
+    margin:20px;
+    color: rgb(148, 148, 148);
+}
+
+.nav-item:hover{
+    color: #ffffff;
+    text-shadow: 2px 0px 15px  #ffffff;
+}
+
+.div1{
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/zigback1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.img1{
+    border-radius: 160px;
+    margin-top: 250px;
+}
+
+.alink{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+}
+
+.div3{
+    
+    height: 100%;
+    width: 82%;
+    background-image: url('./images/grp1.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.hire{
+    border-radius: 4px;
+    border: 2px solid black;
+    width: 20%;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 40%;
+    background-color: rgb(167, 167, 167);
+}
+
+.hire:hover{
+    box-shadow: 5px 5px black;
+}
+
+.headertext{
+    margin-top: 70px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+/* ABOUT US PAGE */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1600px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.info{
+    display: block;
+    width: 100%;
+    box-shadow: 0px 10px rgba(128, 128, 128, 0.432);
+
+}
+
+/* MEET OUR MEMBERS */
+.members{
+    color: aliceblue;
+    height: 100%;
+    padding: 20px;
+    margin: 10px;
+    background: rgb(72, 71, 77);
+    background: linear-gradient(90deg, rgb(45, 45, 46) 0%, rgb(63, 63, 66) 59%, rgb(77, 77, 78) 100%);width:50%;
+}
+.bio{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 0px;
+    margin-right: 25%;
+    margin-bottom: 50px;
+    
+}
+.infomembers{
+    display: block;
+    width: 50%;
+    
+}
+   
+.aboutmembers{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.hover:hover{
+    opacity: 0.6;
+    height: 55px;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 25px;
+    
+    
+}
+
+.logo > div {
+    padding: 2px;
+    height: 45px;
+    width: 50px;
+    background-color: #d9d9d9;
+    border-radius: 200px;
+}
+
+.add{
+    height: 30px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: black;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 100px;
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+}
+.foot1{
+    display: flex;
+}
+.foot2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:30%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <link rel="stylesheet" href="register.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <form method="post" action="dataadding.php">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" name="name" placeholder="Enter your name">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email address</label>
+        <input type="email" class="form-control" name="email" placeholder="Enter your email">
+      </div>
+
+      <div class="form-group">
+        <label for="jobTitle">Job Title</label>
+        <input type="text" class="form-control" name="job" placeholder="Enter your job title">
+      </div>
+
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" class="form-control" name="d" placeholder="Enter a brief description">
+      </div>
+      <div class="form-group">
+        <label for="image">Upload Image</label>
+        <input type="file" class="form-control" name="uploadfile">
+      </div>
+
+      
+      
+    <input type="submit" class="btn btn-primary" value="Submit" name="sub">
+    </form>
+  </div>
+
+ 
+</body>
+
+</html>
